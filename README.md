@@ -8,7 +8,9 @@ If not, please do so before executing the plot*.R file
 
 After reading the txt file into R, the data we will be using is sub-setted and stored in a variable named "selectdate"
 
-For the explanation for each step in the plot, please see the comments in each plot*.R file
+For the explanation for each step in the code, please see the comments in each plot*.R file
+
+The rest of this file is the original content from the README.md forked
 
 ## Introduction
 
