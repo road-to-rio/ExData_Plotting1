@@ -1,3 +1,7 @@
+# read the txt file into R using the read.table function
+raw = read.table("household_power_consumption.txt",colClasses = "character", header = T, sep = ";")
+# select the data for the project
+selectdate = raw[raw$Date=="1/2/2007" | raw$Date=="2/2/2007",]
 # create the png file plot4
 png(width = 480, height = 480, file = "~/ExData_Plotting1/plot4.png")
 par(mfrow=c(2, 2))

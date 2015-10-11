@@ -1,3 +1,7 @@
+# read the txt file into R using the read.table function
+raw = read.table("household_power_consumption.txt",colClasses = "character", header = T, sep = ";")
+# select the data for the project
+selectdate = raw[raw$Date=="1/2/2007" | raw$Date=="2/2/2007",]
 # create the png file plot3
 png(width = 480, height = 480, file = "~/ExData_Plotting1/plot3.png")
 # plot Sub_metering_1 w/ no x axis and no label under x axis
