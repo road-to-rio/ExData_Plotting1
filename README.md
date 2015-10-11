@@ -1,3 +1,10 @@
+There should be 8 files in the top-level folder of the repo, which are 4 pairs of plot*.png files and plot*.R files
+Each plot*.R file starts with reading the file into R
+It is assumed that the original txt file has already been downloaded and unzipped into the current wd
+If not, please do so before executing the plot*.R file
+After reading the txt file into R, the data we will be using is sub-setted and stored in a variable named "selectdate"
+For the explanation for each step in the plot, please see the comments in each plot*.R file
+
 ## Introduction
 
 This assignment uses data from
