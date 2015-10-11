@@ -1,4 +1,4 @@
-There should be 8 files in the top-level folder of the repo, which are 4 pairs of plot*.png files and plot*.R files
+There should be 8 files (other than this README.md file) in the top-level folder of the repo, which are 4 pairs of plot*.png files and plot*.R files
 
 Each plot*.R file starts with reading the file into R
 
